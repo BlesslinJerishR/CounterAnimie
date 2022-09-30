@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter Animie</title>
+    <link rel="shortcut icon" href="/clock.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Counter</h1>
+
+    <style>
+
+        html,body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1d1e21;
+            color: #1d1e;
+            text-align: center;
+            padding-top: 10%;
+        }
+
+        .container{
+            border: 2px solid;
+            position: relative;
+            width: 50%;
+            left: 23%;
+        }
+
+    </style>
+<div class="container">
+    <h1>Counter Animie</h1>
     <h3 id="counts"></h3>
+</div>
+    
 </body>
 <script>
     let counts = setInterval(updated);
